@@ -622,7 +622,7 @@ mod tests {
             "@hebbot:matrix.local ",
             "@HEBBOT:matrix.local ",
             "[hebbot](https://matrix.to/#/@hebbot:matrix.local) ",
-            "[HEBBOT](https://matrix.to/#/@HEBBOT:matrix.local): ",
+            "[HEBBOT](https://matrix.to/#/%40HEBBOT%3Amatrix.local): ",
         ];
 
         for prefix in matching_localpart_prefixes {
