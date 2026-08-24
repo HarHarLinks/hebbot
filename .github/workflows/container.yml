@@ -7,10 +7,11 @@ on:
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+'
       - 'v[0-9]+.[0-9]+'
+      - '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' # YYYYMMDD style TWIMbot tags
   workflow_dispatch:
 
 env:
-  GHCR_IMAGE: ghcr.io/haecker-felix/hebbot
+  GHCR_IMAGE: ghcr.io/harharlinks/hebbot
 
 jobs:
   build-push:
