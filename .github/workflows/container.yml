@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  GHCR_IMAGE: ghcr.io/haecker-felix/hebbot
+  GHCR_IMAGE: ghcr.io/harharlinks/hebbot
 
 jobs:
   build-push:
